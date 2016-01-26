@@ -40,25 +40,25 @@ READINGS: There are extra texts in the readings folder that are **NOT** required
 ---
 
 ## Syllabus 
-NOTE I: This syllabus will be updated weekly. Bookmark and check often!
+NOTE I: This syllabus is subject to change, and will be updated weekly. Bookmark and check often!
 
 NOTE II: All readings can be found in the "Readings" directory. Do the readings! They're short and useful. The weekly folders contain all materials used in class and/or necessary for assignments. 
 
 #### Week One - January 29
 *About the course, logistics, and each other.* 
 
-*What is a map? What's the history of mapping? How are maps used in ways that advance agendas? What are the tools involved in digital/web mapping, and what makes it different?* 
+*What is a map? What's the history of mapping? How are maps used in ways that advance agendas? What are the tools involved in digital/web mapping, and what makes it different from its predecessors?* 
 
 - Introductions
 - Discussion / Viewing: What can mapping do?
-- [Very Brief] Lecture: a very quick history of mapping; digital vs physical vs web; how web mapping works; what maps do 
-- Demonstration: A simple web map **ASSIGNMENTS**:
+- [Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do 
+- Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) 
 - Create Mapbox account at [Mapbox.com] (https://www.mapbox.com)
 - Create a map:
 	- Change the [location](http://www.latlong.net/)
 	- Use Leaflet.js to render, load tiles from [Stamen](http://maps.stamen.com/#toner-lite/12/37.7707/-122.3781), [CartoDB](https://cartodb.com/basemaps/) or any other basemap provider 
-	- Push map online to your github.io page and send me the link before Friday 
+	- Push map online to your blog or github.io page and send me the link before Friday 
 
 #### Week Two - February 5
 *Everything you need to know about tiles*
@@ -66,22 +66,22 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 *Neogeography and questioning geographic data: where it comes from, the forms it takes, how it’s been used in the past, and how to mold it into what we need.*
 
 - Discussion + Assignment presentation
-- [Very Brief] Lecture: Where geospatial data comes from
--  Demonstration: Finding data, Leaflet.js, topoJSON
+- Presentation: Where geospatial data comes from
+- Demonstration: Finding data, layering on top of tiles. 
 
 **ASSIGNMENTS**:
 - TK 
 - Read: "Know Your Place" chapter from *Dataclysm* 
 #### Week Three - February 12
 *What should maps communicate?**An overview of map projections, plus adding data to maps.*
-- Discussion + Assignment presentation- [Very Brief] Lecture: Origins of web maps, KML vs GeoJSON vs ShapeFiles. QGIS,Mapshaper.- Demonstration: Examples layering different types of data on maps (paying special attention to the relationship between the ground map and the datawe’ve tied to it geographically).
+- Discussion + Assignment presentation- Presentation: Origins of web maps, KML vs GeoJSON vs ShapeFiles. QGIS,Mapshaper.- Demonstration: Examples layering different types of data on maps (paying special attention to the relationship between the ground map and the datawe’ve tied to it geographically).
 #### Week Four - February 19*Dealing with Data, part 2. What sorts of things shouldn’t be mapped? How do you know if you’re clarifying or making more obscure, and what are the uses of both? Dealing with problems in data, and creating your own. More in-depth continuation of next week.*
-- Discussion + Assignment presentation- Viewing: Examples of maps that play with the limits of geography
+- Discussion + Assignment- Viewing: Examples of maps that play with the limits of geography
 - Demonstration: Techniques for changing data, dealing with issues in the data, and ways to explore the artfulness of problematic data. Using D3 for mapping.
 #### Week Five - February 26*Visual Cues, Design Considerations, Animation. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can we exploit them to create maps that perform other types of work?*
 - Discussion + Assignment presentation- [Very Brief] Lecture: Final project brief and requirements.- Demonstration: Visual tools for thinking about maps, examples of projects thatuse visual changes for purposes related to art rather than information design(and vice versa). Maps that challenge traditional expectations of space.
 #### Week Six - March 4*Experimental Geography* 
-- [Very Brief] Overview/Discussion: Final project, final class.- Guests: [Ann Chen](http://annhchen.com/whereabouts), [Josh Begley](https://joshbegley.com/)
+- [Very Brief] Overview/Discussion: Final project, final class.- Guest Speakers: [Ann Chen](http://annhchen.com/whereabouts), [Josh Begley](https://joshbegley.com/)
 #### Week Seven - March 11*Final Class* 
 - Presenting Final Projects 
 
