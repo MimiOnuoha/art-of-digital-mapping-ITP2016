@@ -33,7 +33,7 @@ READINGS: There are extra texts in the readings folder that are **NOT** required
 [Maptime's resources](http://maptime.io/lessons-resources/)
 </br>[Ingrid Burrington's Overview of Mapping Tools](http://lifewinning.github.io/maps-cmu/resources/big-picture-tools.html)
 </br>[Tom MacWright's Awesome Geojson](https://github.com/tmcw/awesome-geojson/blob/master/README.md)
-</br> [More Mapping Resources Than You'll Ever Need](https://docs.google.com/document/d/1YL4ypI32HBrkWCuycAdF3FHK-sGFfS9Zc949dgjMgB4/edit?usp=sharing)
+</br> [A Random Assortment of Mapping Resources](https://docs.google.com/document/d/1YL4ypI32HBrkWCuycAdF3FHK-sGFfS9Zc949dgjMgB4/edit?usp=sharing)
 
 
 
@@ -52,7 +52,8 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 - Introductions
 - Discussion / Viewing: What can mapping do?
 - [Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do 
-- Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:- Read: "Know Your Place" chapter from *Dataclysm*  
+- Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:
+- Read: "Know Your Place" chapter from *Dataclysm*  
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) 
 - Create Mapbox account at [Mapbox.com] (https://www.mapbox.com)
 - Create a map:
@@ -67,11 +68,11 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 
 
 - Discussion + Assignment presentation
-- Presentation: Tiles, tiles, tiles. GeoJSON and the data layer. Where it originates from, why it mattersin the here and now. 
+- Presentation: Tiles, tiles, tiles. GeoJSON and the data layer. Where it originates from, why it matters.
 - Demonstration: Adding data to our maps.  
 
 **ASSIGNMENTS**:
-- Reading: Borges, then Baudrillard 
+- Reading: Borges & Baudrillard (in that order)
 
 #### Week Three - February 12
 *What should maps communicate? An overview of map projections.*
