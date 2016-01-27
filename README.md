@@ -28,7 +28,7 @@ Course marks will be determined by evaluating class participation (including sho
 
 
 #### Resources
-READINGS: There are extra texts in the readings folder that are **NOT** required for the course. They are provided as a resource for students who are interested in delving deeper into mapping/cartography/related concepts. 
+READINGS: There are extra texts in the readings folder that are **NOT** required for the course. They are provided as a further resource for students who are interested in delving deeper into mapping/cartography concepts. 
 
 [Maptime's resources](http://maptime.io/lessons-resources/)
 </br>[Ingrid Burrington's Overview of Mapping Tools](http://lifewinning.github.io/maps-cmu/resources/big-picture-tools.html)
@@ -42,7 +42,7 @@ READINGS: There are extra texts in the readings folder that are **NOT** required
 ## Syllabus 
 NOTE I: This syllabus is subject to change, and will be updated weekly. Bookmark and check often!
 
-NOTE II: All readings can be found in the "Readings" directory. Do the readings! They're short and useful. The weekly folders contain all materials used in class and/or necessary for assignments. 
+NOTE II: If a link for a reading isn't provided, then it can be found in the "Readings" directory. Do the readings! They're short and useful. The weekly folders contain all materials used in class and/or necessary for assignments. 
 
 #### Week One - January 29
 *About the course, logistics, and each other.* 
