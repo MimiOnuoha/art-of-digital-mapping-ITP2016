@@ -51,7 +51,7 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 
 - Introductions
 - Discussion / Viewing: What can mapping do?
-- [Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do 
+- [Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do* 
 - Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:
 - Read: "Know Your Place" chapter from *Dataclysm*  
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) 
@@ -69,7 +69,7 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 
 - Discussion + Assignment presentation
 - Presentation: Tiles, tiles, tiles. GeoJSON and the data layer. Where it originates from, why it matters.
-- Demonstration: Adding data to our maps.  
+- Demonstration: Adding data to our maps (tools:Mapshaper, Mapzen, geojson.io)
 
 **ASSIGNMENTS**:
 - Reading: Borges & Baudrillard (in that order)
@@ -91,4 +91,4 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 - [Very Brief] Overview/Discussion: Final project, final class.- Guest Speakers: [Ann Chen](http://annhchen.com/whereabouts), [Josh Begley](https://joshbegley.com/)
 #### Week Seven - March 11*Final Class* 
 - Presenting Final Projects 
-
+*Some slide images gratefully borrowed from the great folks at Maptime. 
