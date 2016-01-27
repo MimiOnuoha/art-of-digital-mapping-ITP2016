@@ -52,7 +52,7 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 - Introductions
 - Discussion / Viewing: What can mapping do?
 - [Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do 
-- Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:- Read: "Know Your Place" chapter from *Dataclysm* 
+- Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:- Read: "Know Your Place" chapter from *Dataclysm*  
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) 
 - Create Mapbox account at [Mapbox.com] (https://www.mapbox.com)
 - Create a map:
@@ -61,25 +61,31 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 	- Push map online to your blog or github.io page and send me the link before Friday 
 
 #### Week Two - February 5
-*Everything you need to know about tiles*
+*Everything you need to know about tiles.*
 
-*Neogeography and questioning geographic data: where it comes from, the forms it takes, how it’s been used in the past, and how to mold it into what we need.*
+*Where does geographic data come from? What forms does it take, how has it been used in the past? How should we think about it now?*
+
 
 - Discussion + Assignment presentation
-- Presentation: Where geospatial data comes from
-- Demonstration: Finding data, layering on top of tiles. 
+- Presentation: Tiles, tiles, tiles. GeoJSON and the data layer. Where it originates from, why it mattersin the here and now. 
+- Demonstration: Adding data to our maps.  
 
 **ASSIGNMENTS**:
-- TK 
+- Reading: Borges, then Baudrillard 
 
 #### Week Three - February 12
-*What should maps communicate?**An overview of map projections, plus adding data to maps.*
-- Discussion + Assignment presentation- Presentation: Origins of web maps, KML vs GeoJSON vs ShapeFiles. QGIS,Mapshaper.- Demonstration: Examples layering different types of data on maps (paying special attention to the relationship between the ground map and the datawe’ve tied to it geographically).
-#### Week Four - February 19*Dealing with Data, part 2. What sorts of things shouldn’t be mapped? How do you know if you’re clarifying or making more obscure, and what are the uses of both? Dealing with problems in data, and creating your own. More in-depth continuation of next week.*
-- Discussion + Assignment- Viewing: Examples of maps that play with the limits of geography
-- Demonstration: Techniques for changing data, dealing with issues in the data, and ways to explore the artfulness of problematic data. Using D3 for mapping.
-#### Week Five - February 26*Visual Cues, Design Considerations, Animation. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can we exploit them to create maps that perform other types of work?*
-- Discussion + Assignment presentation- [Very Brief] Lecture: Final project brief and requirements.- Demonstration: Visual tools for thinking about maps, examples of projects thatuse visual changes for purposes related to art rather than information design(and vice versa). Maps that challenge traditional expectations of space.
+*What should maps communicate? An overview of map projections.*
+
+*Dealing more with data. What sorts of things shouldn’t be mapped? How do you know if you’re clarifying or making more obscure, and what are the uses of both? Large datasets, and creating your own data (CartoDB, Mapbox).*
+- Discussion + Assignment presentation- Demonstration: Examples layering different types of data on maps (paying special attention to the relationship between the ground map and the data we’ve tied to it geographically).
+
+
+#### Week Four - February 19*Visual Cues, Design Considerations, Animation. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can we exploit them to create maps that perform other types of work?*
+- Discussion + Assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)
+- Demonstration:  Demonstration: Visual tools for thinking about maps, examples of projects thatuse visual changes for purposes related to art rather than information design(and vice versa). Maps that challenge traditional expectations of space.
+#### Week Five - February 26
+*Bringing d3.js (and other non-slippy mapping libraries) into the picture.*- Discussion + Assignment presentations - [Very Brief] Lecture: Final project brief and requirements.- Demonstration: D3.js 
+
 #### Week Six - March 4*Experimental Geography* 
 - [Very Brief] Overview/Discussion: Final project, final class.- Guest Speakers: [Ann Chen](http://annhchen.com/whereabouts), [Josh Begley](https://joshbegley.com/)
 #### Week Seven - March 11*Final Class* 
