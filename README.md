@@ -55,7 +55,6 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 - Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:
 - Read: "Know Your Place" chapter from *Dataclysm*  
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) 
-- Create Mapbox account at [Mapbox.com] (https://www.mapbox.com)
 - Create a map:
 	- Change the [location](http://www.latlong.net/)
 	- Use Leaflet.js to render, load tiles from [Stamen](http://maps.stamen.com/#toner-lite/12/37.7707/-122.3781), [CartoDB](https://cartodb.com/basemaps/) or any other basemap provider 
@@ -69,10 +68,10 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 
 - Discussion + Assignment presentation
 - Presentation: Tiles, tiles, tiles. GeoJSON and the data layer. Where it originates from, why it matters.
-- Demonstration: Adding data to our maps (tools:Mapshaper, Mapzen, geojson.io)
+- Demonstration: Adding data to our maps (tools: Mapshaper, Mapzen, geojson.io)
 
 **ASSIGNMENTS**:
-- Reading: Borges & Baudrillard (in that order)
+- Reading: Borges & Baudrillard (in that order); [How A Map is Like an Op-Ed](http://www.citylab.com/tech/2013/04/how-map-op-ed/5143/)
 
 #### Week Three - February 12
 *What should maps communicate? An overview of map projections.*
