@@ -52,7 +52,7 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 - Introductions
 - Discussion / Viewing: What can mapping do?
 - [Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do 
-- Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:
+- Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:- Read: "Know Your Place" chapter from *Dataclysm* 
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) 
 - Create Mapbox account at [Mapbox.com] (https://www.mapbox.com)
 - Create a map:
@@ -71,7 +71,7 @@ NOTE II: All readings can be found in the "Readings" directory. Do the readings!
 
 **ASSIGNMENTS**:
 - TK 
-- Read: "Know Your Place" chapter from *Dataclysm* 
+
 #### Week Three - February 12
 *What should maps communicate?**An overview of map projections, plus adding data to maps.*
 - Discussion + Assignment presentation- Presentation: Origins of web maps, KML vs GeoJSON vs ShapeFiles. QGIS,Mapshaper.- Demonstration: Examples layering different types of data on maps (paying special attention to the relationship between the ground map and the datawe’ve tied to it geographically).
