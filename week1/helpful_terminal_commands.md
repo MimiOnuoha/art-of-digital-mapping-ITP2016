@@ -1,4 +1,4 @@
-# Helpful Terminal Commands
+# Helpful Terminal/Linux Commands
 
 List all the files in a directory:
 		
@@ -21,14 +21,16 @@ Navigate to any directory:
 		
 
 Start up a Python local server:   
-(To close this server, type CTRL + C) 
-To naviagte to it in the browser, type: local
+  
 
 		python -m SimpleHTTPServer 5000 
-		
-		
 
-Other tips: 
+To navigate to it in the browser, go to the url: `localhost:5000`		
+To close this server, type `CTRL + C` into terminal.  	
+
+
+
+</br></br>Other tips: 
 
 - If you push the `up` arrow, terminal will pull up your previous command
 - Similarly, typing `!!` will run the previous command
