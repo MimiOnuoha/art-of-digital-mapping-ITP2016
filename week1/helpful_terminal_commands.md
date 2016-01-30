@@ -36,7 +36,7 @@ To close this server, type `CTRL + C` into terminal.
 - Similarly, typing `!!` will run the previous command
 - Type `history` to see the commands that you've entered in the past. 
 - Type `pwd` to see the path name of directory that you're currently in. 
-- If you type the `tab` key while you're entering a pathname, it'll autocomplete it for you.
+- If you hit the `tab` key while you're entering a pathname, it'll autocomplete it for you.
 
 
 
