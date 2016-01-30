@@ -7,17 +7,17 @@ List all the files in a directory:
 	
 Navigate to a directory in the current one:
 
-		cd directoryname
+		cd foldername
 		
 
-Navigate to the previous directory:
+Navigate to up to the previous directory:
 
-		cd ../
+		cd ../previousfoldername
 		
 
 Navigate to any directory:
 
-		cd ~/directoryname
+		cd ~/foldername
 		
 
 Start up a Python local server:   
@@ -30,9 +30,12 @@ To naviagte to it in the browser, type: local
 
 Other tips: 
 
-- If you push the up arrow, terminal will pull up your previous command
-- type "pwd" to see the the directory that you're currently in. 
- 		
+- If you push the `up` arrow, terminal will pull up your previous command
+- Similarly, typing `!!` will run the previous command
+- Type `history` to see the commands that you've entered in the past. 
+- Type `pwd` to see the path name of directory that you're currently in. 
+- If you type the `tab` key while you're entering a pathname, it'll autocomplete it for you.
+
 
 
 		
