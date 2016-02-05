@@ -16,4 +16,7 @@
 [Jesse](http://www.11bsouth.com/firstMap/)   
 [Lisa](http://lmj.io/playing-with-maps/)   
 [Anna](http://sites.bxmc.poly.edu/~annabialas/bialas1.html)  
-[Quest](http://questkennelly.com/mapping/haena_waineha.html)
+[Quest](http://questkennelly.com/mapping/haena_waineha.html)   
+[Cristina](http://ccannella.com/maps/hoboken.html)  
+[Siyuan](https://github.com/kelvinhu9988/digital-mapping/blob/master/Week1.html)
+  
