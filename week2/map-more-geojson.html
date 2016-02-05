@@ -1,0 +1,54 @@
+<!-- Leaflet documentation for geoJSON: http://leafletjs.com/examples/geojson.html -->
+
+<!DOCTYPE html>
+<head>
+  <style>
+    body {
+      padding:0;
+      margin:0;
+      height: 100%;
+    }
+    html, #map{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    } 
+  </style>
+
+  <title> Map with Leaflet Markers and Pop-ups</title>
+  <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>  
+
+  <!-- Jquery so that we can pull in external JSON files  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script>
+  // CartoDB Map
+  var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+  });
+
+
+  // $.getJSON("/data/biggestcities.json", function(data) {
+  //    var geojson = L.geoJson(data, {
+  //      onEachFeature: function (feature, layer) {
+  //        layer.bindPopup(feature.properties.capital);
+  //      }
+  //    });
+  //    var map = L.map('map').setView([29.566295,-95.614256], 4);
+  //    layer.addTo(map);
+  //    geojson.addTo(map);
+  //  });
+
+
+
+
+
+
+  </script>
+</body>
+</html>

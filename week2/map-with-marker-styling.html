@@ -1,0 +1,84 @@
+<!-- Maki markers documentation: https://www.mapbox.com/maki/ -->
+<!-- Make your own icons: http://leafletjs.com/examples/custom-icons.html -->
+<!-- Another markers/icons plugin: Leaflet Awesome Markers: https://github.com/lvoogdt/Leaflet.awesome-markers -->
+
+<!DOCTYPE html>
+<head>
+	<style>
+	body {
+		padding:0;
+		margin:0;
+		height: 100%;
+	}
+	html, #map{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+	}	
+
+
+	</style>
+
+	<title> Custom Leaflet Markers </title>
+	<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+	<script src ="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+	<!-- Below is for our Maki markers -->
+	<script src="js/Leaflet.MakiMarkers.js"></script> 
+
+</head>
+<body>
+	<div id="map"></div>
+
+	<script>
+	//Allows us to have multiple popups open 
+	L.Map = L.Map.extend({
+		openPopup: function(popup) {
+			this._popup = popup;
+
+			return this.addLayer(popup).fire('popupopen', {
+				popup: this._popup
+			});
+		}
+	}); 
+
+
+	// Base Map
+	var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+	});
+	var map = L.map('map').setView([40.7295134,-73.998649], 13);
+	map.addLayer(layer);
+
+
+	// // Syntax for one Maki icon:
+	// var icon = L.MakiMarkers.icon({icon: "danger", color: "#990000", size: "l"});
+
+
+	// // Markers styled with icons
+	// places = [
+	// ["Marker the first", 40.758581, -73.9295497],
+	// ["Marker the second", 40.6890812,-73.9575096],
+	// ["Marker the third", 40.7107442,-73.9529857],
+	// ];
+
+
+
+	// icons = [
+	// L.MakiMarkers.icon({icon: "danger", color: "#990000", size: "s"}),
+	// L.MakiMarkers.icon({icon: "star", color: "#FFFF00", size: "s"}),
+	// L.MakiMarkers.icon({icon: "marker", color: "#00FF00", size: "s"}),
+	// ]
+
+
+	// for (var i = 0; i < places.length; i++){
+	// 	var marker = new L.marker([places[i][1], places[i][2]], {icon: icons[i]}).addTo(map)
+	// 	marker.bindPopup(places[i][0]);
+	// };
+
+	// console.log(icons);
+
+
+	</script>
+</body>
+</html>

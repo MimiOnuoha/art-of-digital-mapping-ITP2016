@@ -37,6 +37,7 @@ READINGS: There are extra texts in the readings folder that are **NOT** required
 
 
 
+
 ---
 
 ## Syllabus 
@@ -53,7 +54,7 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 - Discussion / Viewing: What can mapping do?
 - [Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do* 
 - Demonstration: A simple web map (Leaflet.js)**ASSIGNMENTS**:
-- Read: "Mappings", Jeremy W. Craven (from Wiley-Blackwell Companion to Cultural Geography)
+- Read: "Mappings", Jeremy W. Crampton (from Wiley-Blackwell Companion to Cultural Geography)
 - Create a map:
 	- Change the [location](http://www.latlong.net/)
 	- Use Leaflet.js, load tiles from [Stamen](http://maps.stamen.com/#toner-lite/12/37.7707/-122.3781), [CartoDB](https://cartodb.com/basemaps/) or any other basemap provider 
@@ -66,18 +67,23 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 
 
 - Discussion of Reading + Assignments
-- Presentation: Tiles, tiles, tiles. GeoJSON and the data layer. Where geographic data comes from, why it matters.
-- Demonstration: Adding data to our maps (tools: Mapshaper, Mapzen, geojson.io). Getting data into the right format. 
+- [Presentation](http://mimionuoha.github.io/digitalmapping/weektwo/#/): Tiles, tiles, tiles. GeoJSON and the data layer. Where geographic data comes from, why it matters.
+- [Demonstration](https://www.dropbox.com/sh/yz2gafipzm6c744/AADTBTNQUmbHI4Tby3dtdjOca?dl=0): Adding data to our maps (tools: geojsonlint, Mapshaper, Mapzen, geojson.io). Getting data into the right format. 
 
 **ASSIGNMENTS**:
-- Reading: Borges & Baudrillard (in that order); [Google Blur sites](http://www.theatlantic.com/technology/archive/2011/06/15-high-profile-sites-that-google-doesnt-want-you-to-see/240766/#slide5)
-- [TK]
-
+- Reading: 
+	- Borges & Baudrillard (in that order)
+	- [When Google Goes Blind](http://www.atlasobscura.com/articles/investigating-censored-spots-on-google-earth) 
+	- Add at least one geojson layer to your map(s): 
+		- Use data that you have gathered from somewhere 
+		- Add at least one marker or pop-up to your site 
+		- NOTE: Think about what relationship/story/correlation (or lack thereof) you are trying to show. Why did you choose the data you did? 
+		- Make sure map is online and send me the link BEFORE 1pm on Friday
 #### Week Three - February 12
 *An overview of map projections.*
 
 *Dealing more with data. What sorts of things shouldn’t be mapped? How do you know if you’re clarifying or obscuring, and what are the uses of both?*
-- Discussion + go over last week's assignment- Demonstration: Adding in map interaction. Libraries and tools for doing further spatial analysis on data (Turf.js). Adding Mapbox and CartoDB into the mix (or at least the dicussion).
+- Discussion + go over last week's assignment- Demonstration: Creating your own geoJSON data. Map interaction. Libraries and tools for doing further spatial analysis on data (Turf.js). Adding Mapbox and CartoDB into the mix (or at least the dicussion).
 **ASSIGNMENTS**:
 -  Reading: [How A Map is Like an Op-Ed](http://www.citylab.com/tech/2013/04/how-map-op-ed/5143/)
 - TK
@@ -91,5 +97,5 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 #### Week Six - March 4*Experimental Geography in practice. Guest presentations.* 
 - [Very Brief] Overview/Discussion: Final project, final class.- Guest Speakers: [Ann Chen](http://annhchen.com/whereabouts), [Josh Begley](https://joshbegley.com/)
 #### Week Seven - March 11*Final Class* 
-- Presenting Final Projects 
+- Presenting Final Projects (featuring guest critics + museum studies students)
 *Some slide images gratefully borrowed from the great folks at Maptime. 
