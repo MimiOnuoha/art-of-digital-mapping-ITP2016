@@ -6,20 +6,24 @@ See JSON nicely formatted:
 		
 	
 Access the Developer console in Chrome: 
-`View` -> `Developer` -> `Developer Tools` 
+`View` -> `Developer` -> `Developer Tools` or `Javascript Console `
 
-</br>Use `console.log` to print out something for checking in the browser console. 
+</br>Use `console.log` to print out something for checking in the browser console. To clear your browser console: `console.clear()`
 
 
-Jquery: `JSON`; Leaflet: `Json`
+</br>Jquery: `JSON`(as in `$.getJSON()`)) Leaflet: `Json` (as in `L.geoJson`)
 
-[Mapshaper](mapshaper.org) is good for previewing or changing data into geoJSON (also changes into other formats)
+</br>[Mapshaper](mapshaper.org) is good for previewing or changing data into geoJSON (also changes into other formats)
 
-GeoJSON files can end in either `.json` or `.geojson`. 
+</br>[GeoJSONLint](http://geojsonlint.com/) Validate and understand GeoJSON format. 
 
-US longitude and latitude: [`38.5858857, -94.287649`]
+</br>GeoJSON files can end in`.json` or `.geojson`. 
 
-To clear your browser console: `console.clear()`
+</br>Leaflet organizes coordinates as `[lon,lat]`; but in GeoJSON, coordinates are reversed so that it's `[lat,lon]`. 
+
+</br>Longitude and latitude for viewing the USA: [`38.5858857, -94.287649`]
+
+
 
 
 </br></br>
