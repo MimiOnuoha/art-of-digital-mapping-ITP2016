@@ -1,5 +1,8 @@
 <!-- Leaflet documentation for geoJSON: http://leafletjs.com/examples/geojson.html -->
 
+<!-- In this example, we are adding in an external stylesheet with geojson points data. In Leaflet, points are automatically rendered as markers. See "map-geojson-points.html" to see how to change markers to circles, or "map-with-marker-styling.html" for how to change markers using a plugin like Maki Markers or Leaflet Awesome Markers. -->
+
+
 <!DOCTYPE html>
 <head>
   <style>
@@ -33,16 +36,16 @@
   });
 
 
-  // $.getJSON("/data/biggestcities.json", function(data) {
-  //    var geojson = L.geoJson(data, {
-  //      onEachFeature: function (feature, layer) {
-  //        layer.bindPopup(feature.properties.capital);
-  //      }
-  //    });
-  //    var map = L.map('map').setView([29.566295,-95.614256], 4);
-  //    layer.addTo(map);
-  //    geojson.addTo(map);
-  //  });
+  $.getJSON("/data/biggestcities.json", function(data) {
+     var geojson = L.geoJson(data, {
+       onEachFeature: function (feature, layer) {
+         layer.bindPopup(feature.properties.capital);
+       }
+     });
+     var map = L.map('map').setView([29.566295,-95.614256], 4);
+     layer.addTo(map);
+     geojson.addTo(map);
+   });
 
 
 

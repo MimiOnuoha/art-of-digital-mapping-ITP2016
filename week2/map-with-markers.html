@@ -30,45 +30,17 @@
 	map.addLayer(layer);
 
 
-	// // Adding Marker syntax:
-	// var marker = L.marker([40.758581,-73.9295497]).addTo(map);	
-	// // Adding Pop-up syntax
-	// marker.bindPopup("<em>This is a popup</em>");
+	// Adding Marker syntax:
+	var marker = L.marker([40.758581,-73.9295497]).addTo(map);	
+	// Adding Pop-up syntax
+	marker.bindPopup("<em>This is a popup</em>");
 
 
 
-	// Multiple markers
-	// homes = [
-	// 	[40.758581,-73.9295497],
-	// 	[40.6890812,-73.9575096], 
-	// 	[40.7107442,-73.9529857]
-	// ];
-
-	// 	for (var i = 0; i < homes.length; i++){
-	// 		marker = new L.marker([homes[i][0], homes[i][1]]).addTo(map)
-			
-	// 		//pop-up on hover
-	// 		marker.on('mouseover', function(e) {
-	// 		  var popup = L.popup()
-	// 		    .setLatLng(e.latlng) //(e.latlng returns the coordinates of the event)
-	// 		    .setContent("This home was located at " + e.latlng.toString())
-	// 		    .openOn(map);
-	// 		});
-	// }
-
-
-
-	// // Multiple markers with popup information
-	// places = [
-	// 	["Text", 40.758581,-73.9295497],
-	// 	["Text", 40.758581,-73.9295497],
-	// 	["Text", 40.7107442,-73.9529857]
-	// 	];
-
-	// for (var i = 0; i < places.length; i++){
-	// 	var marker = new L.marker([places[i][1], places[i][2]]).addTo(map)
-	// 	marker.bindPopup(places[i][0]);
-	// };
+	// Adding Marker syntax:
+	var marker2 = L.marker([40.76,-73.921]).addTo(map);	
+	// Adding Pop-up syntax
+	marker2.bindPopup("<em>This is a popup</em>");
 
 
 	</script>

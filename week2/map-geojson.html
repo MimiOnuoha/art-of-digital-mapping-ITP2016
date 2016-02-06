@@ -1,5 +1,7 @@
 <!-- Leaflet documentation for geoJSON: http://leafletjs.com/examples/geojson.html -->
 
+<!-- An example using external geojson for a polygon and then styling. See syntax for pulling in external geojson below.  -->
+
 <!DOCTYPE html>
 <head>
   <style>
@@ -19,7 +21,6 @@
   <title> Map with Leaflet Markers and Pop-ups</title>
   <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
   <script src ="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>  
-
   <!-- Jquery so that we can pull in external JSON files  -->
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
@@ -34,25 +35,23 @@
   var map = L.map('map').setView([29.566295,-95.614256], 4);
   map.addLayer(layer);
 
-
-    // Syntax for adding geojson:
-    // var geojsonData = somedatahere
-    // L.geoJson(geojsondata).addTo(map);
-
     
 
-    // // SYNTAX FOR EXTERNAL GEOJSON
-    //  var geojsonData = $.getJSON("path/nameoffile.geojson", function(data){
-    //  L.geoJson(data).addTo(map);
-    //  });
+  // SYNTAX FOR EXTERNAL GEOJSON
+   // var geojsonData = $.getJSON("path/nameoffile.geojson", function(data){
+   // L.geoJson(data).addTo(map);
+   // });
 
-  // // STYLING
-  // geojsonStyle = {
-  //   "color": "hexcode"
-  // }
+// STYLING
+  geojsonStyle = {
+    "color": "#800000",
+    opacity: .7
+  }
 
-  var california = $.getJSON("data/california.json", function(data){
-    L.geoJson(data).addTo(map);
+  var maryland = $.getJSON("data/maryland.json", function(data){
+    L.geoJson(data, {
+      style: geojsonStyle
+    }).addTo(map);
   });
 
 

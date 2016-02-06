@@ -16,8 +16,7 @@
 		bottom: 0;
 		width: 100%;
 	}	
-
-
+	  
 	</style>
 
 	<title> Custom Leaflet Markers </title>
@@ -55,28 +54,28 @@
 	// var icon = L.MakiMarkers.icon({icon: "danger", color: "#990000", size: "l"});
 
 
-	// // Markers styled with icons
-	// places = [
-	// ["Marker the first", 40.758581, -73.9295497],
-	// ["Marker the second", 40.6890812,-73.9575096],
-	// ["Marker the third", 40.7107442,-73.9529857],
-	// ];
+	// Markers styled with icons
+	places = [
+	["Marker the first", 40.758581, -73.9295497],
+	["Marker the second", 40.6890812,-73.9575096],
+	["Marker the third", 40.7107442,-73.9529857],
+	];
 
 
 
-	// icons = [
-	// L.MakiMarkers.icon({icon: "danger", color: "#990000", size: "s"}),
-	// L.MakiMarkers.icon({icon: "star", color: "#FFFF00", size: "s"}),
-	// L.MakiMarkers.icon({icon: "marker", color: "#00FF00", size: "s"}),
-	// ]
+	icons = [
+	L.MakiMarkers.icon({icon: "danger", color: "#fff" , size: "l"}),
+	L.MakiMarkers.icon({icon: "star", color: "#FFFF00", size: "m"}),
+	L.MakiMarkers.icon({icon: "heart", color: "#00FF00", size: "s"}),
+	]
 
 
-	// for (var i = 0; i < places.length; i++){
-	// 	var marker = new L.marker([places[i][1], places[i][2]], {icon: icons[i]}).addTo(map)
-	// 	marker.bindPopup(places[i][0]);
-	// };
+	for (var i = 0; i < places.length; i++){
+		var marker = new L.marker([places[i][1], places[i][2]], {icon: icons[i]}).addTo(map)
+		marker.bindPopup(places[i][0]);
+	};
 
-	// console.log(icons);
+
 
 
 	</script>

@@ -25,10 +25,10 @@ Also note that line 31 has an example of using RGB in CSS.
 	#latlongvalue {
 		position: absolute;
 		top: 10%;
-		right: 50px;
+		left: 50px;
 		padding: 10px;
 		text-align: left;
-	    color: rgb(255, 150, 100);
+	    color: rgb(200, 100, 100);
 	    font-size: 1.5rem;
 	    font-family: Helvetica;
 
@@ -43,7 +43,7 @@ Also note that line 31 has an example of using RGB in CSS.
 </head>
 <body>
 	<div id="map"></div>
-	<div id= "latlongvalue"></div>
+	<div id= "latlongvalue">Click one of the markers!</div>
 
 	<script>
 
@@ -72,7 +72,7 @@ Also note that line 31 has an example of using RGB in CSS.
 			var formattedLatLong = latLong.split("(").pop().split(")").shift();
 
 			//JQuery code for passing a variable to an existing div id 
-			$("#latlongvalue").html("Latitude and Longitude:  </br>" + formattedLatLong);
+			$("#latlongvalue").html("Latitude and Longitude: </br>" + formattedLatLong);
 		})		
 	}
 

@@ -30,11 +30,12 @@ Course marks will be determined by evaluating class participation (including sho
 #### Resources
 READINGS: There are extra texts in the readings folder that are **NOT** required for the course. They are provided as a further resource for students who are interested in delving deeper into mapping/cartography concepts. 
 
+
 [Maptime's resources](http://maptime.io/lessons-resources/)
 </br>[Ingrid Burrington's Overview of Mapping Tools](http://lifewinning.github.io/maps-cmu/resources/big-picture-tools.html)
 </br>[Tom MacWright's Awesome Geojson](https://github.com/tmcw/awesome-geojson/blob/master/README.md)
-</br> [A Random Assortment of Mapping Resources](https://docs.google.com/document/d/1YL4ypI32HBrkWCuycAdF3FHK-sGFfS9Zc949dgjMgB4/edit?usp=sharing)
-
+</br> [A Random Assortment of Mapping Resources](https://docs.google.com/document/d/1YL4ypI32HBrkWCuycAdF3FHK-sGFfS9Zc949dgjMgB4/edit?usp=sharing)   
+[William Whyte's *The Social Life of Small Urban Spaces*"](https://vimeo.com/111488563)  
 
 
 

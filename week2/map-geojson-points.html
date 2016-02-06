@@ -1,5 +1,5 @@
 <!-- Leaflet documentation for geoJSON: http://leafletjs.com/examples/geojson.html -->
-<!-- Pulling in geojson points from an external file -->
+<!-- Pulling in geojson points from an external file, using the L.circleMarker function to turn the markers into circles, then adding styles. -->
 
 <!DOCTYPE html>
 <head>
@@ -29,7 +29,7 @@
 
   <script>
   // CartoDB Map
-  var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
   });
 
@@ -72,10 +72,15 @@
 }
 
 
+  geojsonStyle = {
+    "color": "#00e5ee",
+    radius: 10
+  }
+
 
 L.geoJson(cities, {
     pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, geojsonMarkerOptions);
+        return L.circleMarker(latlng, geojsonStyle);
     onEachFeature: onEachFeature
     }
 }).addTo(map);
