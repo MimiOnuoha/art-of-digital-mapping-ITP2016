@@ -1,0 +1,81 @@
+<!-- 
+This is an example for passing the Leaflet latitude and longitude from the Javascript to HTML. Line 68 is the line where we are passing a Javascript value/variable into the HTML div element (on line 42, "latlongvalue")
+
+Keep in mind that the reason we can see the value is because of we've styled the latlongvalue div id (see line 23).
+
+Also note that line 31 has an example of using RGB in CSS. 
+-->
+
+<!DOCTYPE html>
+<head>
+
+	<style>
+	body {
+		padding:0;
+		margin:0;
+		height: 100%;
+	}
+	html, #map{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+	}	
+	
+	#latlongvalue {
+		position: absolute;
+		top: 10%;
+		right: 50px;
+		padding: 10px;
+		text-align: left;
+	    color: rgb(255, 150, 100);
+	    font-size: 1.5rem;
+	    font-family: Helvetica;
+
+	}
+
+	</style>
+
+	<title> Map with Leaflet Markers and Pop-ups</title>
+	<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+	<script src ="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"> </script>
+</head>
+<body>
+	<div id="map"></div>
+	<div id= "latlongvalue"></div>
+
+	<script>
+
+	var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+	});
+	var map = L.map('map').setView([40.7246342,-73.9427715], 13);
+	map.addLayer(layer);
+	
+	
+	homes = [
+	[40.758581,-73.9295497],
+	[40.6890812,-73.9575096], 
+	[40.7107442,-73.9529857]
+	];
+
+
+	for (var i = 0; i < homes.length; i++){
+		marker = new L.marker([homes[i][0], homes[i][1]]).addTo(map)
+
+		marker.on('click', function(currentMarker){
+			// Passing the latitude and longitude of the clicked marker
+			var latLong = (currentMarker.latlng.toString()); 
+
+			// Formatting so that we only get the numbers for lat and lon
+			var formattedLatLong = latLong.split("(").pop().split(")").shift();
+
+			//JQuery code for passing a variable to an existing div id 
+			$("#latlongvalue").html("Latitude and Longitude:  </br>" + formattedLatLong);
+		})		
+	}
+
+	</script>
+</body>
+</html>
