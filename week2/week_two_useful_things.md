@@ -13,7 +13,7 @@ Access the Developer console in Chrome:
 
 </br>Jquery: `JSON`(as in `$.getJSON()`)) Leaflet: `Json` (as in `L.geoJson`)
 
-</br>[Mapshaper](mapshaper.org) is good for previewing or changing data into geoJSON (also changes into other formats)
+</br>[Mapshaper](mapshaper.org) is good for previewing or changing data into geoJSON (also changes into other formats). [Ogre](https://ogre.adc4gis.com/) is also a good tool for conversion. 
 
 </br>[GeoJSONLint](http://geojsonlint.com/) Validate and understand GeoJSON format. 
 
@@ -22,7 +22,6 @@ Access the Developer console in Chrome:
 </br>Leaflet organizes coordinates as `[lon,lat]`; but in GeoJSON, coordinates are reversed so that it's `[lat,lon]`. 
 
 </br>Longitude and latitude for viewing the USA: [`38.5858857, -94.287649`]
-
 
 
 
