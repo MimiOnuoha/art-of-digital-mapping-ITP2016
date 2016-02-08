@@ -2,6 +2,10 @@
 
 ---
 
+## Week 2
+
+
+
 ## Week 1
 
 [Angela](http://www.angelaitp.com/2016/02/04/cartography-meets-js/)  
