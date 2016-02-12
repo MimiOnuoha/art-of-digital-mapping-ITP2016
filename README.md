@@ -83,7 +83,7 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 #### Week Three - February 12
 *An overview of map projections.*
 
-*Dealing more with data, some overview of projections. If time: CartoDB and legends 
+*Dealing more with data, some overview of projections. If time: CartoDB and legends* 
 <!--
 *Dealing more with data. What sorts of things shouldn’t be mapped? How do you know if you’re clarifying or obscuring, and what are the uses of both?*-->
 - Discussion + go over last week's reading- Last week's assignment
