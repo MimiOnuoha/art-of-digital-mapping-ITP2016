@@ -1,0 +1,43 @@
+<!-- Leaflet Omnivore: https://github.com/mapbox/leaflet-omnivore-->
+
+<!DOCTYPE html>
+<head>
+  <style>
+    body {
+      padding:0;
+      margin:0;
+      height: 100%;
+    }
+    html, #map{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    } 
+  </style>
+
+  <title> Loading Data from a CSV </title>
+  <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- This line allows us to pull in Leaflet Omnivore plugin -->
+  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+</head>
+<body>
+  <div id="map"></div>
+
+  <script>
+  // CartoDB Map
+  var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png');
+
+  var map = L.map('map').setView([40.7295142,-73.9960319], 5);
+  map.addLayer(layer);
+
+  // omnivore.csv("nameoffile").addTo(map);
+
+    
+
+  </script>
+</body>
+</html>

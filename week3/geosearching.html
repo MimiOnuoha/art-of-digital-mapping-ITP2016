@@ -1,0 +1,45 @@
+<!-- Documentation for L.GeoSearch: https://github.com/smeijer/L.GeoSearch -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  body { padding:0; margin:0; height:100%;}
+  html, #map {position: absolute; top:0; bottom:0; width:100%;}
+
+  </style>
+
+  <title> Geosearch Example </title>
+  <!-- Leaflet CSS and JavaScript -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+  <!-- L.GeoSearch CSS, Javascript + Provider JS  -->
+  <script src="../src/js/l.control.geosearch.js"></script>
+  <script src="../src/js/l.geosearch.provider.openstreetmap.js"></script>
+  <link rel="stylesheet" href="../src/css/l.geosearch.css" />
+</head>
+
+<body>
+  <div id="map"></div>
+  <script>
+
+  var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+  });
+
+  var map = L.map('map').setView([29.566295,-95.614256], 12);
+  map.addLayer(layer);
+
+  new L.Control.GeoSearch({
+    provider: new L.GeoSearch.Provider.OpenStreetMap(),
+    position: 'topcenter',
+    showMarker: true,
+    retainZoomLevel: false,
+  }).addTo(map);
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!--  This is lifted directly from a Leaflet example, see it here and follow along with the Leaflet explanation: http://leafletjs.com/examples/choropleth.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Leaflet Chloropleth Example</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	<style>
+		body {
+		  padding:0;
+		  margin:0;
+		  height: 100%;
+		}
+		html, #map{
+		  position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  width: 100%;
+		} 
+
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<!-- CSS and Javascript -->
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	<script type="text/javascript" src="/data/states.js"></script>
+	<script type="text/javascript">
+
+		// Setting up the map (code that we're used to)
+		var map = L.map('map').setView([37.8, -96], 4);
+		L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			minZoom: 4,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>' +'Population data &copy; <a href="http://census.gov/">US Census Bureau</a>'
+		}).addTo(map);
+
+		// // get color depending on population density value
+		function getColor(d) {
+			// // condition ? do-this-if-true : do-this-if-false
+			return d > 1000 ? '#800026' :
+			       d > 500  ? '#BD0026' :
+			       d > 200  ? '#E31A1C' :
+			       d > 100  ? '#FC4E2A' :
+			       d > 50   ? '#FD8D3C' :
+			       d > 20   ? '#FEB24C' :
+			       d > 10   ? '#FED976' :
+			                  '#FFEDA0';
+		}
+
+		function style(feature) {
+			return {
+				weight: valuebetweenoand1,
+				opacity: valuebetween0and1,
+				color: 'somecolor',
+				fillOpacity: valuebetween0and1,
+				// // Below is where we call in the density numbers from the geojson
+				fillColor: getColor(feature.properties.density)
+			};
+		}
+
+		function highlightFeature(e) {
+			var layer = e.target;
+			layer.setStyle({
+				weight: somenumberhere,
+				color: '#000',
+				dashArray: '',
+				fillOpacity: somenumberbetween0and1
+			});
+		}
+
+		function resetHighlight(e) {
+			geojson.resetStyle(e.target);
+		}
+
+		function onEachFeature(feature, layer) {
+			layer.on({
+				mouseover: highlightFeature, //on mouseover, call this function
+				mouseout: resetHighlight, // on mouseout, call this function
+			});
+		}
+
+		var geojson = L.geoJson(statesData, {
+			style: style,
+			onEachFeature: onEachFeature
+		}).addTo(map);
+
+
+	</script>
+</body>
+</html>

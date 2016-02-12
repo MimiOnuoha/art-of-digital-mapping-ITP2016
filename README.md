@@ -83,11 +83,14 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 #### Week Three - February 12
 *An overview of map projections.*
 
-*Dealing more with data. What sorts of things shouldn’t be mapped? How do you know if you’re clarifying or obscuring, and what are the uses of both?*
-- Discussion + go over last week's assignment- Demonstration: Creating your own geoJSON data. Map interaction. Libraries and tools for doing further spatial analysis on data (Turf.js). Adding Mapbox and CartoDB into the mix (or at least the dicussion).
+*Dealing more with data, some overview of projections. If time: CartoDB and legends 
+<!--
+*Dealing more with data. What sorts of things shouldn’t be mapped? How do you know if you’re clarifying or obscuring, and what are the uses of both?*-->
+- Discussion + go over last week's reading- Last week's assignment
+- [Presentation](http://mimionuoha.github.io/digitalmapping/weekthree/#/): more on geodata, projections, etc. - [Demonstration](https://www.dropbox.com/sh/n29t5q3a83z6w14/AABL2j_mux1lZdBOuMGEDdMta?dl=0): More on finding, converting, and working with data. 
 **ASSIGNMENTS**:
 -  Reading: [How A Map is Like an Op-Ed](http://www.citylab.com/tech/2013/04/how-map-op-ed/5143/)
-- TK
+- Make another map, or add more to your map from last week. Include more than one set of data. Add a legend to your map, or geosearch, or some sort of means of navigating/understanding your map. Make it so that someone could understand what you're representing if you weren't there to explain it.  
 
 #### Week Four - February 19*Visual Cues, Design Considerations, Animation. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can we exploit them to create maps that perform other types of work?*
 - Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)
