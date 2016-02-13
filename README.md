@@ -5,7 +5,7 @@
 **Instructor**: Mimi Onuoha  
 **Time**: Fridays 3:20 - 5:50 
 </br>**Contact**: <cgo221@nyu.edu>
-</br>**Office Hours**: By Appointment
+</br>**Office Hours**: [Calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUl0bkJBeEw5QmpTfGRlZmF1bHR8MTVmMGJiY2ZkYjkyNWQ0NGQ1Y2YzODliMDQ0MmRlODU)
 
 ## Course Description
 
