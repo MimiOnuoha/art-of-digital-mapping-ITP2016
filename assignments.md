@@ -19,7 +19,7 @@
 
 [Viniyata](http://itp.viniyatapany.com/category/spring-2016/art-of-digital-mapping/)   
 [Anna](http://sites.bxmc.poly.edu/~annabialas/bialas1.html)  
-[Quest](http://questkennelly.com/mapping/haena_waineha.html)   
+[Quest](http://www.questkennelly.com/index.php/mapping/)   
 
   
 

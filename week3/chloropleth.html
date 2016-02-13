@@ -38,6 +38,7 @@
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>' +'Population data &copy; <a href="http://census.gov/">US Census Bureau</a>'
 		}).addTo(map);
 
+
 		// // get color depending on population density value
 		function getColor(d) {
 			// // condition ? do-this-if-true : do-this-if-false
@@ -53,10 +54,10 @@
 
 		function style(feature) {
 			return {
-				weight: valuebetweenoand1,
-				opacity: valuebetween0and1,
-				color: 'somecolor',
-				fillOpacity: valuebetween0and1,
+				weight: .3,
+				opacity: 1,
+				color: 'white',
+				fillOpacity: .7,
 				// // Below is where we call in the density numbers from the geojson
 				fillColor: getColor(feature.properties.density)
 			};
@@ -65,10 +66,10 @@
 		function highlightFeature(e) {
 			var layer = e.target;
 			layer.setStyle({
-				weight: somenumberhere,
-				color: '#000',
+				weight: 5,
+				color: '#666',
 				dashArray: '',
-				fillOpacity: somenumberbetween0and1
+				fillOpacity: 1
 			});
 		}
 

@@ -20,6 +20,8 @@
   <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
   <script src ="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>  
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
   <!-- This line allows us to pull in Leaflet Omnivore plugin -->
   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
 
@@ -31,11 +33,11 @@
   // CartoDB Map
   var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png');
 
-  var map = L.map('map').setView([40.7295142,-73.9960319], 5);
+  var map = L.map('map').setView([40.7295142,-73.9960319], 4);
   map.addLayer(layer);
 
-  // omnivore.csv("nameoffile").addTo(map);
-  
+  omnivore.csv("data/all_day.csv").addTo(map);
+
 
     
 

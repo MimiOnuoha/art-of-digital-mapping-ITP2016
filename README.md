@@ -27,7 +27,7 @@ Each week will begin with a selection of students presenting assignment from pre
 Course marks will be determined by evaluating class participation (including showing up on time!), weekly assignments, and the final project. 
 
 
-#### Resources
+#### Other Resources
 READINGS: There are extra texts in the readings folder that are **NOT** required for the course. They are provided as a further resource for students who are interested in delving deeper into mapping/cartography concepts. 
 
 
@@ -89,14 +89,18 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 - Discussion + go over last week's reading- Last week's assignment
 - [Presentation](http://mimionuoha.github.io/digitalmapping/weekthree/#/): more on geodata, projections, etc. - [Demonstration](https://www.dropbox.com/sh/n29t5q3a83z6w14/AABL2j_mux1lZdBOuMGEDdMta?dl=0): More on finding, converting, and working with data. 
 **ASSIGNMENTS**:
--  Reading: [How A Map is Like an Op-Ed](http://www.citylab.com/tech/2013/04/how-map-op-ed/5143/)
-- Make another map, or add more to your map from last week. Include more than one set of data. Add a legend to your map, or geosearch, or some sort of means of navigating/understanding your map. Make it so that someone could understand what you're representing if you weren't there to explain it.  
+-  Reading: 
+	-  [How A Map is Like an Op-Ed](http://www.citylab.com/tech/2013/04/how-map-op-ed/5143/)
+	- US Gov overview of the [Tehran Conference](https://history.state.gov/milestones/1937-1945/tehran-conf)
+- Assignment:
+	- Sign up for mapbox account [here](https://www.mapbox.com/education)	
+	-  Make another map, or add more to your map from last week. Add a legend to your map, or a geosearch function, or a means of navigating/understanding your map. Create a complete map; make it so that someone could understand what you're representing if you weren't there to explain it.  
 
-#### Week Four - February 19*Visual Cues, Design Considerations, Animation. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can we exploit them to create maps that perform other types of work?*
+#### Week Four - February 19*Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 - Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)
 - Demonstration: Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)(and vice versa). 
 #### Week Five - February 26
-*Bringing d3.js (and other non-slippy mapping libraries) into the picture.*- Discussion + last week's assignment- [Very Brief] Presentation: Final project brief and requirements.- Demonstration: D3.js 
+*Turf.js, other potentially useful Leaflet and Mapbox plugins. A little bit on bringing d3.js into the picture.*- Discussion + last week's assignment- Presentation: Final project brief and requirements.- Demonstration: D3.js 
 
 #### Week Six - March 4*Experimental Geography in practice. Guest presentations.* 
 - [Very Brief] Overview/Discussion: Final project, final class.- Guest Speakers: [Ann Chen](http://annhchen.com/whereabouts), [Josh Begley](https://joshbegley.com/)
