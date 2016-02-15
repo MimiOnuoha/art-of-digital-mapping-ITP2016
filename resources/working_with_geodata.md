@@ -35,14 +35,20 @@ If you're mapping geospatial things (states, countries, rivers, cities), you can
 ### Adding non-geospatial data
 If you're mapping something that doesn't have latlon coordinates, you'll likely want to use geojson and add it to the properties field. See the `states_popdensity.json` example in week3 folder. 
 
-You can add this field to your geojson by hand or programmatically if you know how.  
+You can add this field to your geojson one of three ways. 
 
-The other way that you can add it by going to [geojson.io](geojson.io) and using the method we did in class: 
+METHOD ONE: By hand. Add the values yourself. 
+
+METHOD TWO: Programmatically, using [this code](https://github.com/MimiOnuoha/add-csv-values-to-geojson). 
+
+METHOD THREE: By going to [geojson.io](geojson.io) and using the method we did in class: 
 
 1. Drag in your original geojson file. You should see it appear on the map. 
 2. Click the `Tables `tab, then the `+ new column`button. 
 3. Name your new field, and enter in the necessary data.
 4. In the top left, click the `Save` tab and choose `GeoJSON` as your option. 
+
+METHOD FOUR: By writing your own code to do this. Feel free if you are able to! 
 
 To validate or format geojson, use [jsonformatter](https://jsonformatter.curiousconcept.com/) or [jsonviewer](http://jsonviewer.stack.hu/) (the latter is better for huge datasets).
 
