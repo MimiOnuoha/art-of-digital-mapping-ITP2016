@@ -97,7 +97,7 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 	- Sign up for mapbox account [here](https://www.mapbox.com/education)	
 	-  Make another map, or add more to your map from last week. Add a legend to your map, or a geosearch function, or a means of navigating/understanding your map. Create a complete map; make it so that someone could understand what you're representing if you weren't there to explain it.  
 
-USEFUL: code for adding geojson values to CSV [here](https://github.com/MimiOnuoha/add-csv-values-to-geojson). 
+USEFUL: code for adding CSV values to geojson [here](https://github.com/MimiOnuoha/add-csv-values-to-geojson). 
 #### Week Four - February 19*Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 - Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)
 - Demonstration: Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)(and vice versa). 
