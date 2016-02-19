@@ -36,6 +36,7 @@ READINGS: There are extra texts in the readings folder that are **NOT** required
 </br>[Tom MacWright's Awesome Geojson](https://github.com/tmcw/awesome-geojson/blob/master/README.md)
 </br> [A Random Assortment of Mapping Resources](https://docs.google.com/document/d/1YL4ypI32HBrkWCuycAdF3FHK-sGFfS9Zc949dgjMgB4/edit?usp=sharing)   
 [William Whyte's *The Social Life of Small Urban Spaces*"](https://vimeo.com/111488563)  
+[Mapping Realtime feeds with Mapbox](https://www.mapbox.com/mapbox.js/example/v1.0.0/live-data-marker/)
 
 
 
@@ -108,7 +109,7 @@ USEFUL: code for adding CSV values to geojson [here](https://github.com/MimiOnuo
 	- If you did not get the labels on your map working last week, send me the working version this week. 
 
 #### Week Five - February 26
-*Discussing final projects: expectations, presentation. Turf.js, other potentially useful Leaflet and Mapbox plugins. A little bit on D3.js.*- Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)- Presentation: Final project brief and requirements.- Demonstration: D3.js 
+*Discussing final projects: expectations, presentation. Working with realtime data, Turf.js, other potentially useful Leaflet and Mapbox plugins. Quick overvie on mapping in D3.js.*- Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)- Presentation: Final project brief and requirements.- Demonstration: D3.js 
 
 #### Week Six - March 4*Experimental Geography in practice. Guest presentations.* 
 - [Very Brief] Overview/Discussion: Final project, final class.- Workshop: [Ann Chen](http://annhchen.com/whereabouts)- Speaker: [Josh Begley](https://joshbegley.com/)
