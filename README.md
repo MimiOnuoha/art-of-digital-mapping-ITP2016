@@ -99,7 +99,7 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 
 USEFUL: code for adding CSV values to geojson [here](https://github.com/MimiOnuoha/add-csv-values-to-geojson). 
 #### Week Four - February 19*Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
-- Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)
+- Discussion + last week's assignment- [Presentation](http://mimionuoha.github.io/digitalmapping/weekfour/#/11): quick using python modules, understanding Mapbox 
 - Demonstration: Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)(and vice versa). 
 
 **ASSIGNMENTS**:
@@ -108,7 +108,7 @@ USEFUL: code for adding CSV values to geojson [here](https://github.com/MimiOnuo
 	 
 
 #### Week Five - February 26
-*Discussing final projects: expectations, presentation. Turf.js, other potentially useful Leaflet and Mapbox plugins. A little bit on bringing d3.js into the picture.*- Discussion + last week's assignment- Presentation: Final project brief and requirements.- Demonstration: D3.js 
+*Discussing final projects: expectations, presentation. Turf.js, other potentially useful Leaflet and Mapbox plugins. A little bit on D3.js.*- Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)- Presentation: Final project brief and requirements.- Demonstration: D3.js 
 
 #### Week Six - March 4*Experimental Geography in practice. Guest presentations.* 
 - [Very Brief] Overview/Discussion: Final project, final class.- Workshop: [Ann Chen](http://annhchen.com/whereabouts)- Speaker: [Josh Begley](https://joshbegley.com/)
