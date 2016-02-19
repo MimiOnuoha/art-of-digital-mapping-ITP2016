@@ -101,11 +101,17 @@ USEFUL: code for adding geojson values to CSV [here](https://github.com/MimiOnuo
 #### Week Four - February 19*Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 - Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)
 - Demonstration: Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)(and vice versa). 
+
+**ASSIGNMENTS**:
+- Reading: Trevor Paglen, *Experimental Geography* (in readings folder of repo)
+	- Design and upload your own tile layer. Create it specifically for a map that you have made in one of the previous weeks. 
+	 
+
 #### Week Five - February 26
-*Turf.js, other potentially useful Leaflet and Mapbox plugins. A little bit on bringing d3.js into the picture.*- Discussion + last week's assignment- Presentation: Final project brief and requirements.- Demonstration: D3.js 
+*Discussing final projects: expectations, presentation. Turf.js, other potentially useful Leaflet and Mapbox plugins. A little bit on bringing d3.js into the picture.*- Discussion + last week's assignment- Presentation: Final project brief and requirements.- Demonstration: D3.js 
 
 #### Week Six - March 4*Experimental Geography in practice. Guest presentations.* 
-- [Very Brief] Overview/Discussion: Final project, final class.- Guest Speakers: [Ann Chen](http://annhchen.com/whereabouts), [Josh Begley](https://joshbegley.com/)
+- [Very Brief] Overview/Discussion: Final project, final class.- Workshop: [Ann Chen](http://annhchen.com/whereabouts)- Speaker: [Josh Begley](https://joshbegley.com/)
 #### Week Seven - March 11*Final Class* 
 - Presenting Final Projects (featuring guest critics + museum studies students)
 *Some slide images gratefully borrowed from the great folks at Maptime. 
