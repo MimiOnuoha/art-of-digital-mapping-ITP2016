@@ -28,7 +28,6 @@ def append_properties_to_geojson(csvfile, geojsonfile):
 		print "Note: Your CSV and geojson features do not contain the same number of values."
 	return data 
 
-
 if __name__ == "__main__":
 	csvfile = sys.argv[1]
 	geojsonfile = sys.argv[2]

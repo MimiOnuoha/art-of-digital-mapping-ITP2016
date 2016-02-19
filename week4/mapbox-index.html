@@ -1,0 +1,31 @@
+<!-- Link for map ids: https://www.mapbox.com/developers/api/maps/#mapids -->
+<!-- Link for inspiration: https://www.mapbox.com/gallery/# -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<style type="text/css">
+	body { margin:0; padding: 0;}
+	html, #map { position:absolute; top:0; bottom:0; width:100%;}
+	</style>
+	<title> Mapbox Map </title>
+	
+	<!-- Note that now we are adding in Mapbox.js instead of Leaflet.js -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+
+
+</head>
+<body>
+	<div id="map"></div>
+	<script>
+	
+	L.mapbox.accessToken = 'your-access-token-goes-here';
+	L.mapbox.map('map', 'mapbox.pencil') //change map styles here.  	
+	.setView([20, 0], 2);
+
+
+	</script>
+</body>
+</html>
