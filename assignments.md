@@ -13,13 +13,15 @@
 [Ainsley](https://github.com/MimiOnuoha/art-of-digital-mapping-ITP2016/blob/master/homeworkAO/week3/index.html)    
 [Jesse](http://11bsouth.com/Week3Map/ )    
 [Maria]( https://marsimaria.github.io/DigitalMapping/grandma.html)  
-[Kelvin](https://github.com/kelvinhu9988/digital-mapping) 
-
+[Kelvin](https://github.com/kelvinhu9988/digital-mapping)    
+[Serena](https://serenaparr.com/mirrors/)  
+[Viniyata](http://itp.viniyatapany.com/fall2015/pcomp/solar-technology-in-philadelphia/)     
+[Danielle](http://www.danielleisadora.com/2016/02/19/map-practice/)    
 [Cristina](http://ccannella.com/maps/hoboken.html )  
-[Serena](http://serenaparr.com/nyc-spas_json.html)  
+[Rebecca](http://rlieberman.github.io/DigitalMappingWeek3/)
+
+
 [Regina](http://www.blog.reginavetka.com/projects/7%20wonders.html)   
-[Danielle](http://www.danielleisadora.com/category/the-art-of-digital-mapping/)    
-[Viniyata](http://itp.viniyatapany.com/category/spring-2016/art-of-digital-mapping/)   
 [Anna](http://sites.bxmc.poly.edu/~annabialas/bialas1.html)  
 
 
