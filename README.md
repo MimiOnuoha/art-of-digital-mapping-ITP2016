@@ -104,8 +104,8 @@ USEFUL: code for adding CSV values to geojson [here](https://github.com/MimiOnuo
 
 **ASSIGNMENTS**:
 - Reading: Trevor Paglen, *Experimental Geography* (in readings folder of repo)
-	- Design and upload your own tile layer. Create it specifically for a map that you have made in one of the previous weeks. 
-	 
+	- Design and upload your own customized Mapbox layer. You can import your own data into it or choose to focus just on the tile layer. Upload it and send me the link. 
+	- If you did not get the labels on your map working last week, send me the working version this week. 
 
 #### Week Five - February 26
 *Discussing final projects: expectations, presentation. Turf.js, other potentially useful Leaflet and Mapbox plugins. A little bit on D3.js.*- Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)- Presentation: Final project brief and requirements.- Demonstration: D3.js 
