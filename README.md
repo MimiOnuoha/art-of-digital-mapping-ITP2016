@@ -101,7 +101,7 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 USEFUL: code for adding CSV values to geojson [here](https://github.com/MimiOnuoha/add-csv-values-to-geojson). 
 #### Week Four - February 19*Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 - Discussion + last week's assignment- [Presentation](http://mimionuoha.github.io/digitalmapping/weekfour/#/11): quick using python modules, understanding Mapbox 
-- Demonstration: Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)(and vice versa). 
+- [Demonstration](https://www.dropbox.com/sh/l7ooy94qdnpiz64/AADtsPlfEmzc0n_km_TBFGHxa?dl=0): Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)(and vice versa). 
 
 **ASSIGNMENTS**:
 - Reading: Trevor Paglen, *Experimental Geography* (in readings folder of repo)
