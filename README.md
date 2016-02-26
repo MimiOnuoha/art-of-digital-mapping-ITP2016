@@ -114,7 +114,12 @@ USEFUL: code for adding CSV values to geojson [here](https://github.com/MimiOnuo
 	- NOTE: If you didn't get the labels on your map working last week, don't forget to send me the working version.
 
 #### Week Five - February 26
-*Discussing final projects: expectations, presentation. Working with realtime data, Turf.js, other potentially useful Leaflet and Mapbox plugins. Quick overvie on mapping in D3.js.*- Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://gist.github.com/lifewinning/b3603b1378b5fe560070) for final projects)- Presentation: Final project brief and requirements.- Demonstration: D3.js 
+*Discussing final projects: expectations, presentation. Working with Turf.js, other potentially useful Leaflet and Mapbox plugins, and a fe other things. Quick overview on mapping in D3.js.*- Discussion + last week's assignment- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://www.dropbox.com/s/ls269cdpsnw3dan/inspiration.pdf?dl=0) for final projects)- [Presentation](http://mimionuoha.github.io/digitalmapping/weekfive/#/): Final project brief and requirements.- Demonstration: D3.js, Leaflet plugins, other things.
+**ASSIGNMENTS**:
+
+- Start thinking about and working on your final projects! Schedule office hours with me if you want to talk about ideas. 
+	- Check out some of [Josh Begley's](http://joshbegley.com/) [work](http://nymag.com/daily/intelligencer/2013/01/josh-begley-interview-on-dronestream-twitter-account.html#). Next week he'll be talking to us about how space figures into his work, be prepared with questions. 
+	 
 
 #### Week Six - March 4*Experimental Geography in practice. Guest presentations.* 
 - [Very Brief] Overview/Discussion: Final project, final class.- Workshop: [Ann Chen](http://annhchen.com/whereabouts)- Speaker: [Josh Begley](https://joshbegley.com/)
